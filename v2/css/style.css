@@ -23,6 +23,7 @@ body {
     background: rgba(255, 255, 255, 0.07);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 h2 {
@@ -84,6 +85,7 @@ h2 {
     background: rgba(255, 251,110, 0.2);
     overflow: hidden;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .card::before{
